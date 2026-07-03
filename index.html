@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sandra Milena Pinilla Bautista | Data & Business Analyst</title>
+  <title>Sandra Milena Pinilla Bautista | Data Analyst</title>
 
-  <meta name="description" content="Portafolio de Sandra Milena Pinilla Bautista. Data Analyst y Business Analyst especializada en análisis de datos, KPIs, SQL, Python y optimización de procesos.">
+  <meta name="description" content="Portafolio de Sandra Milena Pinilla Bautista. Data Analyst con experiencia en procesos, KPIs, SQL, Python y análisis de datos.">
 
   <style>
     :root {
       --bg: #0b1220;
       --card: #111a2e;
       --text: #e5e7eb;
-      --accent: #38bdf8;
       --muted: #94a3b8;
+      --accent: #38bdf8;
     }
 
     body {
@@ -25,25 +25,34 @@
     }
 
     header {
-      padding: 70px 20px;
       text-align: center;
+      padding: 60px 20px;
       background: linear-gradient(135deg, #0f172a, #111827);
     }
 
+    /* FOTO PERFIL */
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--accent);
+      margin-bottom: 15px;
+    }
+
     header h1 {
-      font-size: 34px;
       margin: 0;
+      font-size: 30px;
     }
 
     header h2 {
       color: var(--accent);
       font-weight: normal;
-      margin-top: 10px;
     }
 
     header p {
       max-width: 800px;
-      margin: 20px auto 0;
+      margin: 15px auto;
       color: var(--muted);
     }
 
@@ -80,7 +89,6 @@
       padding: 20px;
       margin: 15px 0;
       border-radius: 12px;
-      border: 1px solid #1f2a44;
     }
 
     .tag {
@@ -110,142 +118,140 @@
       background: #0f172a;
       color: var(--muted);
     }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 15px;
-    }
   </style>
 </head>
 
 <body>
 
 <header>
+
+  <!-- 👇 FOTO PERFIL (REEMPLAZA URL) -->
+  <img class="profile-img" src="https://i.imgur.com/your-photo.jpg" alt="Foto de perfil"/>
+
   <h1>Sandra Milena Pinilla Bautista</h1>
-  <h2>Data Analyst | Business Analyst | Process Optimization</h2>
+  <h2>Data Analyst | Business Analyst</h2>
+
   <p>
-    Transformo datos en decisiones estratégicas mediante Python, SQL y análisis de procesos, combinando más de 10 años de experiencia en gestión organizacional con analítica de datos.
+    Transformo datos en decisiones estratégicas combinando Python, SQL y análisis de procesos con más de 10 años de experiencia en gestión organizacional, auditoría y mejora continua.
   </p>
 </header>
 
 <nav>
   <a href="#about">Sobre mí</a>
-  <a href="#skills">Habilidades</a>
   <a href="#projects">Proyectos</a>
-  <a href="#experience">Experiencia</a>
+  <a href="#skills">Habilidades</a>
   <a href="#contact">Contacto</a>
 </nav>
 
+<!-- SOBRE MÍ (PROPÓSITO CLARO MVP) -->
 <section id="about">
   <h3>Sobre mí</h3>
-  <p>
-    Ingeniera Industrial y Magíster en Calidad y Gestión Integral con más de 10 años de experiencia en análisis de procesos, KPIs, riesgos y auditoría interna.
-  </p>
-  <p>
-    Actualmente me formo como Data Analyst en TripleTen, fortaleciendo habilidades en Python, SQL, PostgreSQL, EDA, estadística y visualización de datos.
-  </p>
-  <p>
-    Mi enfoque es transformar datos en decisiones estratégicas mediante storytelling con datos y análisis basado en evidencia.
-  </p>
-</section>
-
-<section id="skills">
-  <h3>Habilidades Técnicas</h3>
 
   <div class="card">
-    <p><strong>Lenguajes y herramientas</strong></p>
-    <span class="tag">Python (Pandas, NumPy)</span>
-    <span class="tag">SQL</span>
-    <span class="tag">PostgreSQL</span>
-    <span class="tag">Excel Avanzado</span>
-    <span class="tag">Git / GitHub</span>
-    <span class="tag">Jupyter</span>
-    <span class="tag">VS Code</span>
-  </div>
+    <p>
+      Soy Ingeniera Industrial y Magíster en Calidad y Gestión Integral con más de 10 años de experiencia en análisis de procesos, KPIs, riesgos y auditoría interna.
+    </p>
 
-  <div class="card">
-    <p><strong>Análisis de datos</strong></p>
-    <span class="tag">EDA</span>
-    <span class="tag">Data Cleaning</span>
-    <span class="tag">Hipótesis</span>
-    <span class="tag">Visualización</span>
-    <span class="tag">KPIs</span>
-    <span class="tag">Storytelling</span>
-  </div>
+    <p>
+      Actualmente me formo como Data Analyst en TripleTen, enfocada en transformar datos en información accionable para la toma de decisiones.
+    </p>
 
-  <div class="card">
-    <p><strong>Negocio y procesos</strong></p>
-    <span class="tag">Gestión de riesgos</span>
-    <span class="tag">Auditoría interna</span>
-    <span class="tag">Mejora continua</span>
-    <span class="tag">ISO 9001</span>
-    <span class="tag">ISO 27001</span>
+    <p>
+      <strong>Propósito del portafolio:</strong> mostrar mis habilidades en análisis de datos, proyectos reales y mi evolución profesional hacia el rol de Data Analyst.
+    </p>
   </div>
 </section>
 
+<!-- PROYECTOS MVP (1-2 OBLIGATORIOS) -->
 <section id="projects">
-  <h3>Proyectos de Data Analytics</h3>
+  <h3>Proyectos</h3>
 
   <div class="card">
     <h4>Chicago Taxi Demand Analysis</h4>
-    <p>
-      Análisis de demanda de taxis en Chicago y evaluación del impacto del clima en la duración de los viajes.
-    </p>
+
+    <p><strong>Objetivo:</strong> analizar la demanda de taxis y el impacto del clima en la duración de los viajes.</p>
+
+    <p><strong>Mi rol:</strong> Data Analyst (limpieza, análisis, visualización y validación de hipótesis).</p>
 
     <p><strong>Qué hice:</strong></p>
     <ul>
       <li>Consulté bases de datos con SQL (JOIN, GROUP BY, CASE)</li>
-      <li>Realicé EDA con Python y Pandas</li>
+      <li>Realicé EDA con Python (Pandas)</li>
       <li>Integré datos climáticos con datos de viajes</li>
-      <li>Validé hipótesis con pruebas estadísticas (SciPy)</li>
-      <li>Visualicé insights con Matplotlib y Seaborn</li>
+      <li>Validé hipótesis con pruebas estadísticas</li>
+      <li>Creé visualizaciones con Matplotlib y Seaborn</li>
     </ul>
 
-    <p><strong>Resultado:</strong> Identificación de patrones de demanda y validación del impacto del clima en movilidad.</p>
+    <p><strong>Resultado:</strong> se identificaron patrones de demanda y se confirmó el impacto del clima en la duración de viajes.</p>
 
     <div>
-      <span class="tag">Python</span>
       <span class="tag">SQL</span>
-      <span class="tag">Pandas</span>
+      <span class="tag">Python</span>
       <span class="tag">EDA</span>
-      <span class="tag">Statistical Analysis</span>
+      <span class="tag">Statistics</span>
+    </div>
+
+    <a class="btn" href="https://github.com/" target="_blank">Ver proyecto</a>
+  </div>
+
+  <div class="card">
+    <h4>Sprint 8 – Estadística Aplicada</h4>
+
+    <p><strong>Objetivo:</strong> validar hipótesis de negocio mediante análisis estadístico.</p>
+    <p><strong>Mi rol:</strong> análisis de datos y pruebas de hipótesis.</p>
+
+    <p><strong>Resultado:</strong> insights estadísticos para toma de decisiones basadas en evidencia.</p>
+
+    <div>
+      <span class="tag">Hypothesis Testing</span>
+      <span class="tag">Python</span>
+      <span class="tag">Pandas</span>
     </div>
 
     <a class="btn" href="https://github.com/" target="_blank">Ver proyecto</a>
   </div>
 </section>
 
-<section id="experience">
-  <h3>Experiencia Profesional</h3>
+<!-- HABILIDADES -->
+<section id="skills">
+  <h3>Habilidades</h3>
 
   <div class="card">
-    <h4>Consultora en Ingeniería Industrial</h4>
-    <p>UPTC – Ministerio de Minas y Energía (2025)</p>
-    <p>Análisis de procesos, informes técnicos y apoyo a toma de decisiones basadas en datos operativos.</p>
+    <p><strong>Técnicas</strong></p>
+    <span class="tag">Python</span>
+    <span class="tag">SQL</span>
+    <span class="tag">PostgreSQL</span>
+    <span class="tag">Excel Avanzado</span>
+    <span class="tag">Git / GitHub</span>
+    <span class="tag">Jupyter</span>
   </div>
 
   <div class="card">
-    <h4>Auditora Interna / Control Interno</h4>
-    <p>UPTC (2019–2024)</p>
-    <p>Análisis de KPIs, auditorías internas, gestión de riesgos y generación de informes estratégicos.</p>
+    <p><strong>Análisis</strong></p>
+    <span class="tag">EDA</span>
+    <span class="tag">KPIs</span>
+    <span class="tag">Visualización</span>
+    <span class="tag">Storytelling</span>
   </div>
 
   <div class="card">
-    <h4>Profesional HSEQ</h4>
-    <p>UPTC (2015–2019)</p>
-    <p>Implementación de sistemas de gestión, análisis de indicadores y mejora continua basada en datos.</p>
+    <p><strong>Negocio</strong></p>
+    <span class="tag">Auditoría</span>
+    <span class="tag">Gestión de riesgos</span>
+    <span class="tag">Mejora continua</span>
+    <span class="tag">ISO</span>
   </div>
 </section>
 
+<!-- CONTACTO -->
 <section id="contact">
   <h3>Contacto</h3>
 
   <div class="card">
-    <p><strong>Email:</strong> samipinilla@gmail.com</p>
-    <p><strong>Ubicación:</strong> Tunja, Boyacá, Colombia</p>
-    <p><strong>GitHub:</strong> github.com/samipinilla-gif</p>
-    <p><strong>LinkedIn:</strong> Perfil profesional</p>
+    <p>Email: samipinilla@gmail.com</p>
+    <p>Ubicación: Tunja, Boyacá, Colombia</p>
+    <p>GitHub: github.com/samipinilla-gif</p>
+    <p>LinkedIn: Perfil profesional</p>
   </div>
 </section>
 
