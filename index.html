@@ -1,229 +1,54 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sandra Milena Pinilla Bautista | Data Analyst Portfolio</title>
-
-<style>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0b1220;
-  color: #e5e7eb;
-  line-height: 1.6;
-}
-
-header {
-  text-align: center;
-  padding: 70px 20px;
-  background: linear-gradient(135deg, #0f172a, #111827);
-}
-
-.profile-img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #38bdf8;
-}
-
-h1 { margin: 10px 0 5px; font-size: 28px; }
-h2 { color: #38bdf8; font-weight: normal; margin: 0; }
-
-nav {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  background: #0f172a;
-  padding: 10px;
-  position: sticky;
-  top: 0;
-}
-
-nav a {
-  color: #e5e7eb;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-section {
-  max-width: 1000px;
-  margin: auto;
-  padding: 50px 20px;
-}
-
-h3 {
-  border-left: 4px solid #38bdf8;
-  padding-left: 10px;
-}
-
-.card {
-  background: #111a2e;
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 12px;
-}
-
-.tag {
-  display: inline-block;
-  background: #1e293b;
-  padding: 5px 8px;
-  margin: 3px;
-  border-radius: 6px;
-  font-size: 12px;
-}
-
-.project-img {
-  width: 100%;
-  border-radius: 10px;
-  margin-top: 15px;
-  border: 1px solid #334155;
-}
-
-a { color: #38bdf8; }
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #0f172a;
-  color: #94a3b8;
-}
-</style>
-</head>
-
-<body>
-
-<header>
-
-<img class="profile-img" src="IMG_3535.jpeg" alt="Foto de perfil">
-
-<h1>Sandra Milena Pinilla Bautista</h1>
-<h2>Data Analyst | Business Intelligence | Process Optimization</h2>
-
-<p>
-Transformo datos en decisiones estratégicas mediante Python, SQL, análisis estadístico y visualización de datos.
-</p>
-
-</header>
-
-<nav>
-<a href="#about">Sobre mí</a>
-<a href="#projects">Proyectos</a>
-<a href="#skills">Habilidades</a>
-<a href="#contact">Contacto</a>
-</nav>
-
-<!-- SOBRE MÍ -->
-<section id="about">
-<h3>Sobre mí</h3>
-
-<div class="card">
-<p>
-Ingeniera Industrial y Magíster en Calidad con más de 10 años de experiencia en análisis de procesos, KPIs, auditoría interna y gestión de riesgos.
-</p>
-
-<p>
-Actualmente curso el Bootcamp de Data Analytics en TripleTen, fortaleciendo habilidades en Python, SQL, PostgreSQL, EDA, estadística y visualización de datos.
-</p>
-
-<p>
-<strong>Propósito del portafolio:</strong> mostrar de forma práctica mis habilidades en análisis de datos aplicadas a problemas reales de negocio.
-</p>
-</div>
-</section>
-
-<!-- PROYECTOS -->
 <section id="projects">
 <h3>Proyectos</h3>
 
 <!-- PROYECTO 1 -->
 <div class="card">
-<h4>Chicago Taxi Demand Analysis</h4>
+<h4>Sprint 6 – Análisis de ventas de videojuegos (ICE)</h4>
 
-<p><strong>Contexto:</strong> análisis de demanda de taxis en Chicago y efecto del clima en los viajes.</p>
+<p><strong>Contexto:</strong> análisis de ventas globales de videojuegos para identificar patrones de éxito.</p>
 
-<p><strong>Mi contribución:</strong> limpieza de datos, EDA en Python, consultas SQL y análisis estadístico.</p>
+<p><strong>Objetivo:</strong> detectar factores que influyen en el éxito de un videojuego (plataforma, género, rating ESRB).</p>
 
-<p><strong>Objetivo:</strong> identificar patrones de demanda y validar impacto del clima.</p>
+<p><strong>Mi contribución:</strong> limpieza de datos, EDA, análisis de tendencias y pruebas de hipótesis.</p>
 
 <img class="project-img" src="imagen_sprint_6.png" alt="Sprint 6 gráfico">
 
 <p><strong>Conclusiones:</strong></p>
 <ul>
-<li>La demanda varía por empresa y zona geográfica.</li>
-<li>El clima impacta significativamente la duración de viajes.</li>
-<li>Se validó estadísticamente el efecto de condiciones climáticas.</li>
+<li>Las plataformas tienen ciclos de vida definidos.</li>
+<li>Los géneros influyen significativamente en las ventas.</li>
+<li>Las reseñas impactan parcialmente el rendimiento del juego.</li>
 </ul>
 
-<p><strong>Tecnologías:</strong> Python, SQL, PostgreSQL, Pandas, Matplotlib, Seaborn, SciPy</p>
-
-<p>
-🔗 <a href="https://github.com/samipinilla-gif" target="_blank">Ver proyecto en GitHub</a>
-</p>
+<p><strong>Repositorio:</strong></p>
+<a href="https://github.com/samipinilla-gif/samipinilla-gif.github.io" target="_blank">
+Ver proyecto Sprint 6
+</a>
 </div>
 
 <!-- PROYECTO 2 -->
 <div class="card">
-<h4>Estadística Aplicada – Sprint 8</h4>
+<h4>Sprint 8 – Análisis de taxis en Chicago y clima</h4>
 
-<p><strong>Contexto:</strong> análisis de hipótesis para toma de decisiones basada en datos.</p>
+<p><strong>Contexto:</strong> análisis de viajes en taxi y su relación con condiciones climáticas.</p>
 
-<p><strong>Mi contribución:</strong> pruebas estadísticas, validación de hipótesis y visualización de resultados.</p>
+<p><strong>Objetivo:</strong> evaluar si el clima afecta la duración de los viajes.</p>
 
-<p><strong>Objetivo:</strong> evaluar diferencias significativas entre grupos de datos.</p>
+<p><strong>Mi contribución:</strong> consultas SQL, análisis exploratorio y pruebas de hipótesis estadísticas.</p>
 
 <img class="project-img" src="imagen_sprint_8.png" alt="Sprint 8 gráfico">
 
 <p><strong>Conclusiones:</strong></p>
 <ul>
-<li>Se identificaron diferencias estadísticamente significativas.</li>
-<li>Los resultados permiten tomar decisiones basadas en evidencia.</li>
-<li>Se reforzó el uso de pruebas de hipótesis en análisis de negocio.</li>
+<li>El clima lluvioso aumenta la duración de los viajes.</li>
+<li>Existen diferencias estadísticamente significativas.</li>
+<li>Se identificaron patrones operativos en rutas clave.</li>
 </ul>
 
-<p><strong>Tecnologías:</strong> Python, Hypothesis Testing, Pandas, SciPy</p>
-
-<p>
-🔗 <a href="https://github.com/samipinilla-gif" target="_blank">Ver proyecto en GitHub</a>
-</p>
+<p><strong>Repositorio:</strong></p>
+<a href="https://github.com/samipinilla-gif/samipinilla-gif.github.io" target="_blank">
+Ver proyecto Sprint 8
+</a>
 </div>
 
 </section>
-
-<!-- HABILIDADES -->
-<section id="skills">
-<h3>Habilidades</h3>
-
-<div class="card">
-<span class="tag">Python</span>
-<span class="tag">SQL</span>
-<span class="tag">PostgreSQL</span>
-<span class="tag">EDA</span>
-<span class="tag">Matplotlib</span>
-<span class="tag">Seaborn</span>
-<span class="tag">Pandas</span>
-<span class="tag">Statistics</span>
-<span class="tag">KPIs</span>
-<span class="tag">Storytelling</span>
-</div>
-</section>
-
-<!-- CONTACTO -->
-<section id="contact">
-<h3>Contacto</h3>
-
-<div class="card">
-<p>Email: samipinilla@gmail.com</p>
-<p>Ubicación: Tunja, Boyacá, Colombia</p>
-<p>GitHub: github.com/samipinilla-gif</p>
-<p>LinkedIn: Perfil profesional</p>
-</div>
-</section>
-
-<footer>
-© 2026 Sandra Milena Pinilla Bautista
-</footer>
-
-</body>
-</html>
