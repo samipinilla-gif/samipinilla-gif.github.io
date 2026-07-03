@@ -3,9 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sandra Milena Pinilla Bautista | Data Analyst</title>
+
+<title>Sandra Pinilla | Data Analyst Portfolio</title>
+
+<meta name="description" content="Portafolio de Data Analyst con proyectos en Python, SQL, análisis de datos y Business Intelligence.">
+<meta name="keywords" content="Data Analyst, Python, SQL, Portfolio, Business Intelligence">
 
 <style>
+
 body{
 margin:0;
 font-family:Arial, sans-serif;
@@ -16,7 +21,7 @@ line-height:1.6;
 
 header{
 text-align:center;
-padding:60px 20px;
+padding:70px 20px;
 background:linear-gradient(135deg,#0f172a,#111827);
 }
 
@@ -24,8 +29,8 @@ background:linear-gradient(135deg,#0f172a,#111827);
 width:150px;
 height:150px;
 border-radius:50%;
-object-fit:cover;
 border:3px solid #38bdf8;
+object-fit:cover;
 }
 
 h1{margin:10px 0 5px;}
@@ -36,9 +41,10 @@ display:flex;
 justify-content:center;
 gap:20px;
 background:#0f172a;
-padding:10px;
+padding:12px;
 position:sticky;
 top:0;
+z-index:1000;
 }
 
 nav a{
@@ -60,9 +66,14 @@ padding-left:10px;
 
 .card{
 background:#111a2e;
-padding:20px;
+padding:25px;
 margin-top:20px;
 border-radius:12px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.01);
 }
 
 .project-img{
@@ -72,7 +83,28 @@ margin-top:15px;
 border:1px solid #334155;
 }
 
-a{color:#38bdf8;}
+.button{
+display:inline-block;
+margin-top:10px;
+padding:10px 15px;
+background:#38bdf8;
+color:#0b1220;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.badge{
+background:#1e293b;
+padding:8px 12px;
+border-radius:8px;
+}
 
 footer{
 text-align:center;
@@ -80,6 +112,7 @@ padding:20px;
 background:#0f172a;
 color:#94a3b8;
 }
+
 </style>
 </head>
 
@@ -90,99 +123,143 @@ color:#94a3b8;
 <img class="profile-img" src="IMG_3535.jpeg" alt="Foto de perfil">
 
 <h1>Sandra Milena Pinilla Bautista</h1>
-<h2>Data Analyst | Business Intelligence | Process Optimization</h2>
 
-<p>Transformo datos en decisiones mediante Python, SQL, análisis estadístico y visualización de datos.</p>
+<h2>Data Analyst | Python | SQL | Business Intelligence</h2>
+
+<p>Transformo datos en decisiones estratégicas mediante análisis de datos, visualización y optimización de procesos.</p>
 
 </header>
 
 <nav>
 <a href="#about">Sobre mí</a>
 <a href="#projects">Proyectos</a>
+<a href="#skills">Habilidades</a>
 <a href="#contact">Contacto</a>
 </nav>
 
-<!-- SOBRE MÍ -->
+<!-- ABOUT -->
 <section id="about">
+
 <h3>Sobre mí</h3>
 
 <div class="card">
+
 <p>
-Ingeniera Industrial y Magíster en Calidad con más de 10 años de experiencia en análisis de procesos, KPIs, auditoría y gestión de riesgos.
+Ingeniera Industrial y Magíster en Calidad con más de 10 años de experiencia en análisis de procesos, KPIs y mejora continua.
+Actualmente me formo como Data Analyst en TripleTen.
 </p>
 
 <p>
-Actualmente me formo como Data Analyst en TripleTen, fortaleciendo habilidades en Python, SQL, EDA, estadística y visualización de datos.
+Mi objetivo es convertir datos en insights accionables para la toma de decisiones en negocio.
 </p>
 
-<p>
-<strong>Propósito del portafolio:</strong> demostrar habilidades prácticas en análisis de datos aplicadas a problemas reales de negocio.
-</p>
 </div>
+
 </section>
 
-<!-- PROYECTOS -->
+<!-- PROJECTS -->
 <section id="projects">
+
 <h3>Proyectos</h3>
 
 <!-- SPRINT 6 -->
 <div class="card">
 
-<h4>Sprint 6 – Análisis de ventas de videojuegos (ICE)</h4>
+<h4>📊 Sprint 6 – Video Game Sales Analysis</h4>
 
-<p><strong>Contexto:</strong> análisis de ventas globales de videojuegos para identificar factores de éxito.</p>
+<p><b>Contexto:</b> análisis de ventas globales de videojuegos para identificar factores de éxito.</p>
 
-<p><strong>Objetivo:</strong> detectar patrones en plataformas, géneros y reseñas para campañas publicitarias.</p>
+<p><b>Objetivo:</b> identificar patrones en géneros, plataformas y regiones.</p>
 
-<p><strong>Contribución:</strong> limpieza de datos, análisis exploratorio (EDA), creación de variables, visualización de datos y pruebas de hipótesis.</p>
+<p><b>Herramientas:</b> Python, Pandas, Matplotlib, Seaborn</p>
 
-<img class="project-img" src="imagen_sprint_6.png" alt="Sprint 6 análisis">
+<p><b>Proceso:</b> limpieza de datos, EDA, visualización y análisis por región.</p>
 
-<p><strong>Conclusión:</strong> el éxito de un videojuego depende principalmente de la plataforma, género y comportamiento del mercado por región.</p>
+<p><b>Conclusión:</b> el éxito depende principalmente del género, plataforma y región del mercado.</p>
 
-<p>
-🔗 <a href="https://github.com/samipinilla-gif/samipinilla-gif.github.io" target="_blank">
-Ver proyecto en GitHub
+<img class="project-img" src="imagen_sprint_6.png">
+
+<a class="button"
+href="https://github.com/samipinilla-gif"
+target="_blank">
+Ver repositorio Sprint 6
 </a>
-</p>
 
 </div>
 
 <!-- SPRINT 8 -->
 <div class="card">
 
-<h4>Sprint 8 – Análisis de taxis en Chicago y clima</h4>
+<h4>🚖 Sprint 8 – Chicago Taxi Analysis</h4>
 
-<p><strong>Contexto:</strong> análisis de viajes en taxi y su relación con condiciones climáticas.</p>
+<p><b>Contexto:</b> análisis de viajes en taxi y condiciones climáticas en Chicago.</p>
 
-<p><strong>Objetivo:</strong> evaluar si la lluvia o tormentas afectan la duración de los viajes desde el Loop al aeropuerto O’Hare.</p>
+<p><b>Objetivo:</b> evaluar si la lluvia afecta la duración de los viajes.</p>
 
-<p><strong>Contribución:</strong> consultas SQL, unión de tablas, análisis exploratorio en Python, visualización de datos y pruebas de hipótesis.</p>
+<p><b>Herramientas:</b> SQL, Python, Pandas, SciPy</p>
 
-<img class="project-img" src="imagen_sprint_8.png" alt="Sprint 8 análisis">
+<p><b>Proceso:</b> consultas SQL, EDA y prueba de hipótesis.</p>
 
-<p><strong>Conclusión:</strong> los viajes en condiciones de lluvia o tormenta tienden a ser más largos, con diferencias estadísticamente significativas.</p>
+<p><b>Conclusión:</b> los viajes en lluvia o tormenta son significativamente más largos.</p>
 
-<p>
-🔗 <a href="https://github.com/samipinilla-gif/samipinilla-gif.github.io" target="_blank">
-Ver proyecto en GitHub
+<img class="project-img" src="imagen_sprint_8.png">
+
+<a class="button"
+href="https://github.com/samipinilla-gif"
+target="_blank">
+Ver repositorio Sprint 8
 </a>
-</p>
 
 </div>
 
 </section>
 
-<!-- CONTACTO -->
+<!-- SKILLS -->
+<section id="skills">
+
+<h3>Habilidades</h3>
+
+<div class="card">
+
+<div class="skills">
+
+<span class="badge">Python</span>
+<span class="badge">SQL</span>
+<span class="badge">Pandas</span>
+<span class="badge">NumPy</span>
+<span class="badge">Matplotlib</span>
+<span class="badge">Seaborn</span>
+<span class="badge">EDA</span>
+<span class="badge">Hypothesis Testing</span>
+<span class="badge">Business Intelligence</span>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
 <section id="contact">
+
 <h3>Contacto</h3>
 
 <div class="card">
-<p>Email: samipinilla@gmail.com</p>
-<p>Ubicación: Tunja, Boyacá, Colombia</p>
-<p>GitHub: github.com/samipinilla-gif</p>
-<p>LinkedIn: Perfil profesional</p>
+
+<p>📧 Email: samipinilla@gmail.com</p>
+
+<p>🔗 LinkedIn:
+<a href="https://www.linkedin.com/in/sandra-milena-pinilla-bautista-441496325" target="_blank">
+Perfil profesional
+</a>
+</p>
+
+<p>🐙 GitHub: github.com/samipinilla-gif</p>
+
+<p>📍 Tunja, Colombia</p>
+
 </div>
+
 </section>
 
 <footer>
